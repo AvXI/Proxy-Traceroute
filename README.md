@@ -1,1 +1,2 @@
 # Proxy-Traceroute
+This code sets the URL of the website to trace and the proxy server to use, and sends a GET request to the website using the proxy server. It then extracts the IP address of the proxy server from the response headers and prints it. Next, it traces the route from the client to the proxy server using the HackerTarget MTR API, and prints the traceroute results. The code uses regular expressions to extract the IP address of the proxy server from the response headers.
